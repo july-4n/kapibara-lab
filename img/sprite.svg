@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrow" viewBox="0 0 24 25"><g fill="none">
+<path d="M19 12.5H5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 17.5L19 12.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 7.5L19 12.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="icon-check-modal" viewBox="0 0 90 91"><g fill="none">
+<path d="M42.1875 53.9375L35.5 47.5" stroke="#737BE1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56.25 39.875L42.1875 53.9375" stroke="#737BE1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45 79.25C26.3604 79.25 11.25 64.1396 11.25 45.5V45.5C11.25 26.8604 26.3604 11.75 45 11.75V11.75C63.6396 11.75 78.75 26.8604 78.75 45.5V45.5C78.75 64.1396 63.6396 79.25 45 79.25V79.25Z" stroke="#737BE1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="icon-check" viewBox="0 0 24 25"><g fill="none">
+<path d="M18.5 8.5L10.5 16.5L6 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol><symbol id="icon-phone" viewBox="0 0 42 42"><g fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18.998 23.002C16.9505 20.9545 15.407 18.662 14.3815 16.3362C14.1645 15.8445 14.2923 15.2687 14.672 14.889L16.1053 13.4575C17.2795 12.2832 17.2795 10.6225 16.254 9.59699L14.1995 7.54249C12.8328 6.17574 10.6173 6.17574 9.25051 7.54249L8.10951 8.68349C6.81276 9.98024 6.27201 11.851 6.62201 13.706C7.48651 18.2787 10.143 23.2855 14.4288 27.5712C18.7145 31.857 23.7213 34.5135 28.294 35.378C30.149 35.728 32.0198 35.1872 33.3165 33.8905L34.4558 32.7512C35.8225 31.3845 35.8225 29.169 34.4558 27.8022L32.403 25.7495C31.3775 24.724 29.715 24.724 28.6913 25.7495L27.111 27.3315C26.7313 27.7112 26.1555 27.839 25.6638 27.622C23.338 26.5947 21.0455 25.0495 18.998 23.002Z" stroke="#737BE1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g></symbol></svg>
