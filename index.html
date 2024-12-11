@@ -1,31 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Медицинская лаборатория">
-    <title>KapibaraLab</title>
-    <link rel="stylesheet" href="css/style.min.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="container">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Медицинская лаборатория">
+  <title>KapibaraLab</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="img/svg/logo.svg" width="194" height="29" alt="Логотип KapibaraLab">
+            <span class="header__logo-text">Современные методики диагностики</span>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Лаборатория</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Галерея</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#">Оставить заявку</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__phone" href="tel:+71234567890">
+            <div class="header__phone-icon">
+              <svg width="42" height="42" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="header__phone-info">
+              <span class="header__phone-num" >+7 123 456 7890</span>
+              <span class="header__phone-text">Звонок бесплатный</span>
+            </div>
+          </a>
         </div>
-      </header>
-      <main>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <h1 class="visually-hidden">Медицинская лаборатория KapibaraLab</h1>
+        <div class="intro__bg">
+          <picture>
+            <source type="image/webp" srcset="img/banner.webp, img/banner@2x.webp 2x"><img src="img/banner.jpg"
+              srcset="img/banner@2x.jpg 2x" width="1920" height="560" alt="Баннер">
+          </picture>
+        </div>
+        <div class="container">
+          <div class="intro__inner">
+            <div class="intro__text">
+              <p class="intro__text-top">точные результаты</p>
+              <p class="intro__text-bottom">точно в срок</p>
+            </div>
+            <div class="intro__inner-img">
+              <picture>
+                <source type="image/webp" srcset="img/kapibara-intro.webp, img/kapibara-intro@2x.webp 2x"><img
+                  src="img/kapibara-intro.jpg" srcset="img/kapibara-intro@2x.jpg 2x" width="367" height="492"
+                  alt="Баннер">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="welcome pt-big">
+        <div class="container">
+          <p class="welcome__text">
+            Добро пожаловать в&nbsp;медицинскую лабораторию Kapibara<span class="accent">Lab</span>, где работают
+            исключительно капибары&nbsp;— ваш
+            надежный партнер в&nbsp;обеспечении качественной и&nbsp;точной диагностики!
+          </p>
+        </div>
+      </div>
+      <section class="lab">
+        <div class="container">
+          <div class="lab__inner">
+            <div class="lab__info">
+              <h2 class="title title--h2">Лаборатория</h2>
+              <div class="lab__img">
+                <picture>
+                  <source type="image/webp" srcset="img/gallery/assistant.webp, img/gallery/assistant@2x.webp 2x"><img
+                    src="img/gallery/assistant.jpg" srcset="img/gallery/assistant@2x.jpg 2x" width="367" height="492"
+                    alt="Лаборант">
+                </picture>
+              </div>
+              <div class="lab__text">
+                <p>
+                  Наша лаборатория предлагает широкий спектр медицинских исследований, проводимых опытными
+                  капибарами-лаборантами. Мы&nbsp;специализируемся на&nbsp;анализе биоматериалов, микробиологических
+                  исследованиях, генетической диагностике и&nbsp;многом другом.
+                </p>
+                <p>
+                  Мы&nbsp;используем современное оборудование и&nbsp;методики и&nbsp;гарантируем точность и&nbsp;надежность
+                  результатов.
+                </p>
+              </div>
+              <button class="btn">Оставить заявку
+                <svg width="42" height="42" aria-hidden="true">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container"></div>
+    </footer>
+  </div>
 
-      </main>
-      <footer>
-        <div class="container"></div>
-      </footer>
-    </div>
 
 
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
 
-    <script src="js/vendor.min.js"></script>
-    <script src="js/main.min.js"></script>
-  </body>
 </html>
