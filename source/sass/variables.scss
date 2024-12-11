@@ -1,0 +1,46 @@
+// Colors
+// ---------------------------------
+
+$color-default-black:               #000000;
+$color-grey-dark:                   #4C4C4C;
+$color-grey:                        #A0A0A0;
+$color-default-white:               #FFFFFF;
+$color-lavender-light:              #E9EAF9;
+$color-lavender:                    #737BE1;
+$color-error:                       #E17373;
+
+
+
+
+// Gradient
+
+$bg-grad:                    linear-gradient(90deg, #E9EAF9 0%, #F5F5FF 100%);
+
+// Typography
+// ---------------------------------
+
+// переменная используемая в html для подключения скейлинга
+$fz-default:                        14px;
+
+$ff-montserrat:                     "montserrat", "arial", sans-serif;
+
+// Animation
+// ---------------------------------
+
+$tf-default:                        ease;
+$trans-default:                     0.3s $tf-default;
+
+$trans-modal:                       0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+$trans-600:                         0.6s $tf-default;
+
+// Viewports
+// ---------------------------------
+
+
+$vp-375:                            375px;
+$vp-768:                            768px;
+$vp-1024:                           1024px;
+$vp-1280:                           1280px;
+$vp-1440:                           1440px;
+$vp-1920:                           1920px;
