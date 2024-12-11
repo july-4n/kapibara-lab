@@ -1,0 +1,65 @@
+.lab {
+  background: $bg-grad;
+
+  &__inner {
+    display: grid;
+    gap: 48px;
+    padding: 48px 0;
+
+    @include vp-900 {
+      grid-template-columns: 1fr;
+      padding: 36px 0;
+    }
+  }
+
+  &__info {
+    display: grid;
+    gap: 36px;
+    justify-items: start;
+
+    @include vp-900 {
+      gap: 24px;
+
+      font-size: 16px;
+    }
+  }
+
+  &__text {
+    p {
+      margin: 0;
+      margin-top: 18px;
+
+      @include vp-900 {
+        margin-top: 14px;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__img {
+    max-width: 332px;
+
+    grid-area: 1 / 2 / 4 / 2;
+
+    aspect-ratio: 1;
+
+    @include vp-900 {
+      max-width: 324px;
+
+      grid-area: 2 / -1;
+
+      aspect-ratio: 324 / 306;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  }
+}

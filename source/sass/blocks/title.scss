@@ -1,0 +1,13 @@
+.title {
+  margin: 0;
+
+  &--h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+
+    @include vp-900 {
+      font-size: 28px;
+    }
+  }
+}
