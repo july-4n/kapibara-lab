@@ -18,6 +18,16 @@
 
   &__logo {
     margin-left: 15px;
+
+    @include vp-900 {
+      margin-left: 0;
+    }
+
+    img {
+      @include vp-900 {
+        max-width: 150px;
+      }
+    }
   }
 
   &__text {

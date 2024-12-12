@@ -1,0 +1,47 @@
+.request {
+  padding-bottom: 96px;
+
+  @include vp-900 {
+    padding-bottom: 30px;
+  }
+
+  .container {
+    @include vp-900 {
+      background: $bg-grad;
+    }
+  }
+
+  &__inner {
+    display: grid;
+    gap: 48px;
+    justify-content: center;
+
+    padding: 48px 15px;
+
+    text-align: center;
+
+    background: $bg-grad;
+    border-radius: 8px;
+
+    @include vp-900 {
+      gap: 36px;
+      padding: 36px 0;
+
+      text-align: left;
+      background: $color-transparent;
+      border-radius: 0;
+    }
+  }
+
+  &__text {
+    max-width: 1020px;
+    width: 100%;
+    margin: 0 auto;
+
+    @include vp-900 {
+      margin: 0;
+
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.form {
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+  gap: 48px;
+  grid-template-columns: 1fr;
+
+  @include vp-900 {
+    gap: 32px;
+  }
+
+  &__inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 19px;
+
+    width: 100%;
+
+    @include vp-1023 {
+      flex-direction: column;
+    }
+  }
+}

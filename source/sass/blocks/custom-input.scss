@@ -1,0 +1,55 @@
+.custom-input {
+  display: flex;
+
+  max-width: 280px;
+  width: 100%;
+
+  @media screen and (max-width: 1023px) {
+    max-width: 550px;
+  }
+
+  @media screen and (max-width: 900px) {
+    max-width: unset;
+  }
+
+  input {
+    flex-grow: 1;
+    max-width: 280px;
+    width: 100%;
+    border: 2px solid $color-lavender-blue;
+    border-radius: 8px;
+    padding: 12px 16px;
+
+    outline: none;
+
+    transition: border 0.3s ease;
+
+    @media screen and (max-width: 1023px) {
+      max-width: unset;
+
+      font-size: 16px;
+    }
+
+    &::placeholder {
+      color: $color-grey;
+    }
+
+    &:hover {
+      border-color: $color-lavender;
+    }
+
+    &:focus {
+      border-color: $color-lavender;
+
+      &::placeholder {
+        opacity: 0;
+      }
+    }
+  }
+
+  &.error {
+    input {
+      border-color: $color-error;
+    }
+  }
+}

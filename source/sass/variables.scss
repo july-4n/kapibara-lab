@@ -6,14 +6,16 @@ $color-default-black:               #000000;
 $color-grey-dark:                   #4C4C4C;
 $color-grey:                        #A0A0A0;
 $color-default-white:               #FFFFFF;
+$color-ghost-white:                 #F5F6FF;
 $color-lavender-light:              #E9EAF9;
+$color-lavender-blue:               #C6CAFF;
 $color-lavender:                    #737BE1;
 $color-lavender-dark:               #4F58C9;
 $color-error:                       #E17373;
 
 // Gradient
 
-$bg-grad:                    linear-gradient(90deg, #E9EAF9 0%, #F5F5FF 100%);
+$bg-grad:                    linear-gradient(0deg, $color-lavender-light 0%, #F5F5FF 100%);
 
 // Typography
 // ---------------------------------
