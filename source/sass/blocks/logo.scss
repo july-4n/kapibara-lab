@@ -1,0 +1,11 @@
+.logo {
+  img {
+    max-width: 194px;
+
+    object-fit: contain;
+
+    @include vp-900 {
+      max-width: 172px;
+    }
+  }
+}

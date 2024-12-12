@@ -1,0 +1,40 @@
+.footer {
+  background-color: $color-lavender-dark;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 60px 0;
+
+    @include vp-900 {
+      flex-direction: column;
+      align-items: center;
+
+      padding: 24px 0;
+    }
+  }
+
+  &__logo {
+    margin-left: 15px;
+  }
+
+  &__text {
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.3;
+
+    color: $color-default-white;
+
+    @include vp-900 {
+      order: 2;
+      margin-top: 18px;
+      padding: 0 11px;
+
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}

@@ -19,14 +19,6 @@
     max-width: 397px;
     width: 100%;
 
-    img {
-      max-width: 194px;
-
-      @include vp-900 {
-        max-width: 172px;
-      }
-    }
-
     @include vp-1279 {
       flex-direction: column;
       align-items: baseline;
