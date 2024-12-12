@@ -38,7 +38,7 @@
               </li>
             </ul>
           </nav>
-          <a class="header__phone" href="tel:+71234567890">
+          <a class="header__phone" href="tel:+71234567890" aria-label="Позвонить нам">
             <div class="header__phone-icon">
               <svg width="42" height="42" aria-hidden="true">
                 <use xlink:href="img/sprite.svg#icon-phone"></use>
@@ -196,9 +196,9 @@
             <li class="card">
               <div class="card__img-container">
                 <picture>
-                  <source type="image/webp" srcset="img/gallery/utilization.webp, img/gallery/utilization@2x.webp 2x"><img
-                    src="img/gallery/utilization.jpg" srcset="img/gallery/utilization@2x.jpg 2x" width="440" height="330"
-                    alt="Лаборатория">
+                  <source type="image/webp" srcset="img/gallery/utilization.webp, img/gallery/utilization@2x.webp 2x">
+                  <img src="img/gallery/utilization.jpg" srcset="img/gallery/utilization@2x.jpg 2x" width="440"
+                    height="330" alt="Лаборатория">
                 </picture>
               </div>
               <div class="card__info">
@@ -228,10 +228,37 @@
               </div>
             </li>
           </ul>
-
         </div>
       </section>
-
+      <section class="request pt-big">
+        <div class="container">
+          <div class="request__inner">
+            <h2 class="title title--h2">Заявка на&nbsp;диагностику</h2>
+            <p class="request__text">
+              Доверьте свои медицинские исследования надежным капибарам-лаборантам и&nbsp;получите качественные результаты
+              в&nbsp;кратчайшие сроки!
+            </p>
+            <form action="#" method="post" class="request__form form">
+              <div class="form__inputs">
+                <div class="custom-input">
+                  <input type="text" placeholder="Фамилия" minlength="2" required>
+                </div>
+                <div class="custom-input">
+                  <input type="text" placeholder="Имя" minlength="2" required>
+                </div>
+                <div class="custom-input error">
+                  <input type="text" placeholder="Отчество" minlength="2" required>
+                </div>
+              </div>
+              <button class="btn">Отправить
+                <svg width="42" height="42" aria-hidden="true">
+                  <use xlink:href="img/sprite.svg#icon-check"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
