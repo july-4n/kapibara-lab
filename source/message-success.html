@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Медицинская лаборатория">
+  <title>KapibaraLab</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest" crossorigin="use-credentials">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#174ec5">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo logo">
+            <img src="img/svg/logo.svg" width="194" height="29" alt="Логотип KapibaraLab">
+            <span class="header__logo-text">Современные методики диагностики</span>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#lab">Лаборатория</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#gallery">Галерея</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#form">Оставить заявку</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__phone" href="tel:+71234567890" aria-label="Позвонить нам">
+            <div class="header__phone-icon">
+              <svg width="42" height="42" aria-hidden="true">
+                <use xlink:href="img/sprite.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="header__phone-info">
+              <span class="header__phone-num">+7 123 456 7890</span>
+              <span class="header__phone-text">Звонок бесплатный</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="request pt-big pb-big" id="request">
+        <div class="container">
+          <div class="request__inner">
+            <h2 class="title title--h2">Заявка на&nbsp;диагностику</h2>
+            <p class="request__text">
+              Доверьте свои медицинские исследования надежным капибарам-лаборантам и&nbsp;получите качественные
+              результаты
+              в&nbsp;кратчайшие сроки!
+            </p>
+            <form action="#" method="post" class="request__form form" id="diagnostics">
+              <div class="form__inputs">
+                <div class="custom-input">
+                  <input type="text" name="surname" placeholder="Фамилия" minlength="2" required>
+                </div>
+                <div class="custom-input">
+                  <input type="text" name="name" placeholder="Имя" minlength="2" required>
+                </div>
+                <div class="custom-input error">
+                  <input type="text" name="add-name" placeholder="Отчество" minlength="2" required>
+                </div>
+              </div>
+              <button class="btn">Отправить
+                <svg width="42" height="42" aria-hidden="true">
+                  <use xlink:href="img/sprite.svg#icon-check"></use>
+                </svg>
+              </button>
+              <div class="message is-active" data-message="success">
+                <div class="message__content">
+                  <div class="message__inner">
+                    <svg width="90" height="90">
+                      <use xlink:href="img/sprite.svg#icon-check-big"></use>
+                    </svg>
+                    <p class="message__description">Спасибо за&nbsp;предоставленную информацию, мы&nbsp;свяжемся с&nbsp;вами
+                      в&nbsp;ближайшее время.</p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="footer__text">Все права защищены Российской Ассоциацией Капибар</p>
+          <div class="footer__logo logo">
+            <img src="img/svg/logo-white.svg" width="194" height="29" alt="Логотип KapibaraLab">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

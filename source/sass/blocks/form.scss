@@ -1,10 +1,10 @@
 .form {
-  width: 100%;
-
   display: grid;
   justify-items: center;
   gap: 48px;
   grid-template-columns: 1fr;
+
+  width: 100%;
 
   @include vp-900 {
     gap: 37px;
