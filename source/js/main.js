@@ -1,4 +1,5 @@
 import {iosVhFix} from './utils/ios-vh-fix';
+import {sendForm} from './modules/form/send-form';
 
 // ---------------------------------
 
@@ -13,7 +14,6 @@ window.addEventListener('DOMContentLoaded', () => {
   // ---------------------------------
 
   window.addEventListener('load', () => {
-
+    sendForm('diagnostics');
   });
 });
-

@@ -1,11 +1,5 @@
 .welcome {
-  padding-bottom: 96px;
-
   text-align: center;
-
-  @include vp-900 {
-    padding-bottom: 30px;
-  }
 
   &__text {
     margin: 0;

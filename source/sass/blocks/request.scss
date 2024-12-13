@@ -1,9 +1,5 @@
 .request {
-  padding-bottom: 96px;
-
-  @include vp-900 {
-    padding-bottom: 30px;
-  }
+  overflow: hidden;
 
   .container {
     @include vp-900 {
@@ -12,6 +8,7 @@
   }
 
   &__inner {
+    position: relative;
     display: grid;
     gap: 48px;
     justify-content: center;

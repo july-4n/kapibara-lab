@@ -73,3 +73,11 @@
     padding-top: 28px;
   }
 }
+
+.pb-big {
+  padding-bottom: 96px;
+
+  @include vp-900 {
+    padding-bottom: 30px;
+  }
+}
